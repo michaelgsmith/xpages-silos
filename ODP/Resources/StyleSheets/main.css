@@ -1,0 +1,44 @@
+html,
+body {
+	margin : 0;
+	padding : 0;
+	height:100%;
+}
+
+.page-content {
+	background : #cecece;
+	height : 100vh;
+	width : 100vw;
+	display:flex;
+	flex-direction:column;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.silo-container {
+	display:flex;
+	align-items:stretch;
+	flex-direction:row;
+	height:100vh;
+}
+.silo {
+	flex:1;
+	border-right: 1px solid #999;
+    border-left: 1px solid #fff;
+    max-width:300px;
+    min-width:200px;
+
+}
+.tile {
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 7px 5px;
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.silo h4 {text-align:center}

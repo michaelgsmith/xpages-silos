@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.10" replicaid="852583C40051045E" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1c2" sequence="2" unid="46E095116773FC3F852583C50059B85E">
+<created><datetime dst="true">20190322T121959,02-04</datetime></created>
+<modified><datetime dst="true">20190322T122017,89-04</datetime></modified>
+<revised><datetime dst="true">20190322T122017,88-04</datetime></revised>
+<lastaccessed><datetime dst="true">20190322T122017,88-04</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20190322T121959,07-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Michael G Smith/O=MBR</name></updatedby>
+<wassignedby><name>CN=Michael G Smith/O=MBR</name></wassignedby>
+<item name="$TITLE" sign="true"><text>enable_amd</text></item>
+<item name="$Flags"><text>h534Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex">
+
+	<xe:restService pathInfo="backlog">
+		<xe:this.service>
+			<xe:viewJsonService viewName="all" defaultColumns="true"
+				count="100">
+				<xe:this.databaseName><![CDATA[#{javascript:database.getServer() + "!!" + database.getFilePath()}]]></xe:this.databaseName>
+			</xe:viewJsonService>
+		</xe:this.service>
+	</xe:restService>
+	<xe:restService id="restService1" pathInfo="updateStatus">
+
+
+		<xe:this.service>
+			<xe:customRestService>
+				<xe:this.doPost><![CDATA[#{javascript:var doc:NotesDocument = database.getDocumentByUNID(context.getUrlParameter("docid"));
+doc.replaceItemValue("status",context.getUrlParameter("status"));
+doc.save(true, false);
+return "success"}]]></xe:this.doPost>
+			</xe:customRestService>
+		</xe:this.service>
+	</xe:restService></xp:view>
