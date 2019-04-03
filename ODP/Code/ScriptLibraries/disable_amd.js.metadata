@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.10" replicaid="852583C40051045E" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1be" sequence="2" unid="3C132CFEC8CA5E22852583C50059A621">
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="852583C50064669A" version="10.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="146" sequence="4" unid="3C132CFEC8CA5E22852583C50059A621">
 <created><datetime dst="true">20190322T121912,33-04</datetime></created>
-<modified><datetime dst="true">20190322T121935,93-04</datetime></modified>
-<revised><datetime dst="true">20190322T121935,92-04</datetime></revised>
-<lastaccessed><datetime dst="true">20190322T121935,92-04</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20190322T121912,38-04</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Michael G Smith/O=MBR</name></updatedby>
-<wassignedby><name>CN=Michael G Smith/O=MBR</name></wassignedby>
+<modified><datetime dst="true">20190326T154822,05-04</datetime></modified>
+<revised><datetime dst="true">20190326T154822,04-04</datetime></revised>
+<lastaccessed><datetime dst="true">20190326T154822,04-04</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20190326T154638,65-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=magnitude/O=DDN</name><name>CN=Michael G Smith/O=MAGNITUDE</name></updatedby>
+<wassignedby><name>CN=Michael G Smith/O=MAGNITUDE</name></wassignedby>
 <item name="$TITLE" sign="true"><text>disable_amd</text></item>
 <item name="$Flags"><text>h534Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>

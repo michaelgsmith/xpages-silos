@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<div class="page-content">
+		<div class="header" style="background:#000;color:#eee;text-align:center;padding:7px">
+			<h2>Kanban Silos</h2>
+		</div> 
+		<div class="silo-container">
+			<div class="silo" data-status="Ready for Dev">
+				<h4>Ready for Dev</h4>
+			</div>
+			<div class="silo" data-status="In Dev">
+				<h4>In Dev</h4>
+			</div>
+			<div class="silo" data-status="Ready for Code Review">
+				<h4>Ready for Code Review</h4>
+			</div>
+			<div class="silo" data-status="In Code Review">
+				<h4>In Code Review</h4>
+			</div>
+			<div class="silo" data-status="Ready for QA">
+				<h4>Ready for QA</h4>
+			</div>
+			<div class="silo" data-status="In QA">
+				<h4>In QA</h4>
+			</div>
+			<div class="silo" data-status="Complete">
+				<h4>Complete</h4>
+			</div>
+		</div>
+	</div>
+	<xp:scriptBlock>
+
+		<xp:this.value><![CDATA[$(document).ready(function() {
+	silos.init();
+})]]></xp:this.value>
+	</xp:scriptBlock>
+</xp:view>

@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.10' replicaid='852583C40051045E'>
-<noteinfo noteid='11a' unid='E61C1C6AAABD70EA852583C400510468' sequence='2'>
+<note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='10.0'
+ maintenanceversion='1.0' replicaid='852583C50064669A'>
+<noteinfo noteid='152' unid='E61C1C6AAABD70EA852583C400510468' sequence='4'>
 <created><datetime dst='true'>20190321T104455,44-04</datetime></created>
-<modified><datetime dst='true'>20190321T121239,94-04</datetime></modified>
-<revised><datetime dst='true'>20190321T121239,93-04</datetime></revised>
-<lastaccessed><datetime dst='true'>20190321T121239,93-04</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20190321T104455,46-04</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Michael G Smith/O=MBR</name></updatedby>
-<wassignedby><name>CN=Michael G Smith/O=MBR</name></wassignedby>
+<modified><datetime dst='true'>20190329T121936,72-04</datetime></modified>
+<revised><datetime dst='true'>20190329T121936,71-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20190329T121936,71-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20190326T154638,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Michael G Smith/O=MAGNITUDE</name></updatedby>
+<wassignedby><name>CN=Michael G Smith/O=MAGNITUDE</name></wassignedby>
 <item name='$FormulaClass'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>all</text></item>
 <item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
-NgAFACgAIwAEAAYABAAJAAQAc3RhdHVzaXRlbSRDb25mbGljdCRSRUYABAAEAAAACABmAAMA
+VAAFACgAIwAEAAYABAAJAAQAc3RhdHVzaXRlbSRDb25mbGljdCRSRUYABAAEAAAAHAAFAAQAZm9y
+bQEABwBiYWNrbG9nAAoCAwAHAAoABAAJTDFT
 </formula></item>
 <item name='$Collation' summary='true'>
 <rawitemdata type='2'>
@@ -43,7 +44,7 @@ BAAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABfTW92ZSBUbyBGb2xkZXIuLi4FAD18vv8uAAAABQAA
 AJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBGb2xkZXIABgA+fL7/IAAAAAUAAACdAQAABQAAAAAA
 AABfUmVhZAAHAF58vv8iAAAABQAAAJ0BAAAHAAAAAAAAAF9VbnJlYWQACABufL7/LgAAAAUAAACd
 AQAAEwAAAAAAAABfT3BlbiBpbiBOZXcgV2luZG93AAkAfny+/yQAAAAFAAAAnQEAAAkAAAAAAAAA
-X1ByaW50Li4uAAoAjny+/yIAAAAFAAAAnQEAAAcAAAAAAAAAX0RlbGV0ZZoLAJ58vv8uAAAABQAA
+X1ByaW50Li4uAAoAjny+/yIAAAAFAAAAnQEAAAcAAAAAAAAAX0RlbGV0ZQALAJ58vv8uAAAABQAA
 AJ0BAAAUAAAAAAAAAF9Eb2N1bWVudCBQcm9wZXJ0aWVzDACufL7/HgAAAAUAAACdAQAABAAAAAAA
 AABDX3V0DQC+fL7/IAAAAAUAAACdAQAABQAAAAAAAABfQ29weQAOAM58vv8wAAAABQAAAJ0BAAAW
 AAAAAAAAAENvcHkgYXMgRG9jdW1lbnQgX0xpbmsPAN58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAENv
